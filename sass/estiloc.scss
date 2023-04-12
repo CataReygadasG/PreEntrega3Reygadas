@@ -4,23 +4,26 @@ $font2:#000;
 $font3:rgb(94, 86, 67);
 $font4:rgb(165, 153, 116);
 $font5:#333;
+$font6:rgb(134, 123, 96);
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar-brand{
-    color: $font1;
-    text-shadow: 0 0 5px $font3;
-    span{
-        color: $font3; 
-    }
-}
 
 body{
     background-color: $font3;
 }
+
+.navbar-brand{
+    color:$font2;
+    text-shadow: 0 0 5px $font2;
+    span{
+        color: $font3;
+    }
+}
+
 h1{
     background-color: $font4;
     text-align: center;

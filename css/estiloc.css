@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(94, 86, 67);
+}
+
 .navbar-brand {
-  color: #fff;
-  text-shadow: 0 0 5px rgb(94, 86, 67);
+  color: #000;
+  text-shadow: 0 0 5px #000;
 }
 .navbar-brand span {
   color: rgb(94, 86, 67);
-}
-
-body {
-  background-color: rgb(94, 86, 67);
 }
 
 h1 {
