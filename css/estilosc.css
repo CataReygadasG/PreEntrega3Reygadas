@@ -1,9 +1,9 @@
 .navbar-brand {
-  color: #fff;
+  color: #000;
   text-shadow: 0 0 5px #000;
 }
 .navbar-brand span {
-  color: rgb(94, 86, 67);
+  color: #fff;
 }
 
 form {
@@ -11,7 +11,7 @@ form {
   padding: 10px;
 }
 
-h2 {
+h1 {
   background-color: rgb(165, 153, 116);
   text-align: center;
   color: #fff;

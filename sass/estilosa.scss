@@ -1,23 +1,30 @@
+//fonts
+$font1:#fff;
+$font2:#000;
+$font3:rgb(94, 86, 67);
+$font4:rgb(165, 153, 116);
+$font5:#333;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .navbar-brand{
-    color: #fff;
-    text-shadow: 0 0 5px #000;
+    color: $font1;
+    text-shadow: 0 0 5px $font2;
     span{
-        color: rgb(94, 86, 67); 
+        color: $font3; 
     }
 }
 
 body{
-    background-color: rgb(116, 107, 80);
+    background-color: $font3;
 }
 h1{
-    background-color: rgb(165, 153, 116);
+    background-color: $font4;
     text-align: center;
-    color: #fff;
+    color:$font1;
     text-transform: capitalize;
     padding: 20px;
     margin-bottom: 20px;
@@ -50,8 +57,8 @@ section{
     .card1{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116);  
+        background-color: $font5;
+        border: 5px solid $font4;  
         .card__img{
             background-image: url(../img/imgA1.jpg);
             width: 100%;
@@ -61,19 +68,19 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116);     
+            color: $font4;     
         }
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         } 
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -82,7 +89,7 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         }
     }
@@ -90,8 +97,8 @@ section{
     .card2{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116);
+        background-color: $font5;
+        border: 5px solid $font4;
         .card__img2{
             background-image: url(../img/imgA2.jpg);
             background-size: cover; 
@@ -101,19 +108,19 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116);  
+            color: $font4;  
         }
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         } 
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -122,15 +129,15 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         }  
     }
     .card3{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116); 
+        background-color: $font5;
+        border: 5px solid $font4; 
         .card__img3{
             background-image: url(../img/imgA3.jpg);
              background-size: cover; 
@@ -140,22 +147,22 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116);
+            color: $font4;
             
         }
         
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         }
         
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -164,15 +171,15 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         } 
     }
     .card4{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116);
+        background-color: $font5;
+        border: 5px solid $font4;
         .card__img4{
             background-image: url(../img/imgA4.jpg);
             background-size: cover; 
@@ -182,19 +189,19 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116); 
+            color: $font4; 
         }  
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         }
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -203,15 +210,15 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         }  
     }
     .card5{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116);  
+        background-color: $font5;
+        border: 5px solid $font4;  
         .card__img5{
             background-image: url(../img/imgA5.jpg);
             background-size: cover;
@@ -221,20 +228,20 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116);
+            color: $font4;
             
         }
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         }
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -243,15 +250,15 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         }
     }
     .card6{
         min-height: 100px;
         width: 100%;
-        background-color: #333;
-        border: 5px solid rgb(165, 153, 116);  
+        background-color: $font5;
+        border: 5px solid $font4;  
         .card__img6{
             background-image: url(../img/imgA6.jpg);
             background-size: cover;
@@ -261,20 +268,20 @@ section{
         }
         .card__title{
             text-align: center;
-            color: rgb(165, 153, 116);
+            color: $font4;
             
         }
         .card__descripcion{
-            color: #fff;
+            color: $font1;
             padding: 20px;
             text-align: center;
             object-fit: fill;
         }
         .card__button{
-            background-color: rgb(165, 153, 116);
-            color: #fff;
+            background-color: $font4;
+            color: $font1;
             text-decoration: none;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 5px $font2;
             text-transform: uppercase;
             padding: 10px 20px;
             display: inline-block;
@@ -283,25 +290,25 @@ section{
             width: 50%;
         }
         .card__button:hover{
-            background-color: #000;
+            background-color: $font2;
             width: 50%;
         }
     }
 
 footer{
-    background-color: #000;
-    color: #fff;
+    background-color: $font2;
+    color: $font1;
     text-align: center;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     padding: 20px;
     i{
         font-size: 50px;
-        color: rgb(165, 153, 116);
+        color: $font4;
         letter-spacing: 30px;
     }
     i:hover{
-        color: #333;
+        color: $font5;
     }
 }
 

@@ -1,9 +1,13 @@
 //fonts
-$font1: rgb(94, 86, 67);
-$font2:#fff;
+$font1:#fff;
+$font2:#000;
+$font3:rgb(94, 86, 67);
+$font4:rgb(165, 153, 116);
+$font5:#333;
+
 .navbar-brand{
     color:$font2;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 5px $font2;
     span{
         color: $font1;
     }
@@ -14,9 +18,9 @@ form{
     padding: 10px;
 }
 h1{
-    background-color: $font1;
+    background-color: $font4;
     text-align: center;
-    color: $font2;
+    color: $font1;
     text-transform: capitalize;
     padding: 20px;
     margin-bottom: 20px;
@@ -30,7 +34,7 @@ label{
     padding: 5px;
 }
 form{
-    border: 7px solid rgb(165, 153, 116);
+    border: 7px solid $font4;
      margin: auto  ; 
     border-radius: 10px;
      block-size: auto; 
@@ -38,8 +42,8 @@ form{
   }
 
   footer{
-    background-color: #000;
-    color: #fff;
+    background-color: $font2;
+    color: $font1;
     text-align: center;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
@@ -47,11 +51,11 @@ form{
     margin-top: 30px;
     i{
         font-size: 50px;
-        color: rgb(165, 153, 116);
+        color: $font4;
         letter-spacing: 30px;
     }
     i:hover{
-        color: #333;
+        color: $font5;
     }
 }
 
