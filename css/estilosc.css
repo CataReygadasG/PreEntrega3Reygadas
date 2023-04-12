@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(134, 123, 96);
+  color: #fff;
+}
+
 .navbar-brand {
   color: #000;
   text-shadow: 0 0 5px #000;

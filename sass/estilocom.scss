@@ -4,6 +4,12 @@ $font2:#000;
 $font3:rgb(94, 86, 67);
 $font4:rgb(165, 153, 116);
 $font5:#333;
+$font6:rgb(134, 123, 96);
+
+body{
+    background-color: $font6;
+    color: $font1;
+}
 
 .navbar-brand{
     color: $font1;
