@@ -1,8 +1,11 @@
+//fonts
+$font1: rgb(94, 86, 67);
+$font2:#fff;
 .navbar-brand{
-    color: #fff;
+    color:$font2;
     text-shadow: 0 0 5px #000;
     span{
-        color: rgb(94, 86, 67);
+        color: $font1;
     }
 }
 
@@ -10,10 +13,10 @@ form{
     margin: 10px;
     padding: 10px;
 }
-h2{
-    background-color: rgb(165, 153, 116);
+h1{
+    background-color: $font1;
     text-align: center;
-    color: #fff;
+    color: $font2;
     text-transform: capitalize;
     padding: 20px;
     margin-bottom: 20px;
