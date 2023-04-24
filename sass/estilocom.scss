@@ -9,10 +9,12 @@ $font6:rgb(134, 123, 96);
 body{
     background-color: $font6;
     color: $font1;
+    background-image: url(../img/pexels-monstera-7794399.jpg);
+    
 }
 
 .navbar-brand{
-    color: $font1;
+    color:$font2;
     text-shadow: 0 0 5px $font2;
     span{
         color: $font3;
@@ -22,9 +24,17 @@ body{
 form{
     margin: 10px;
     padding: 10px;
+    border: 7px solid $font5;
+    margin: auto  ; 
+    border-radius: 10px;
+    block-size: auto; 
+    margin-top: 50px;
+    background-color: $font5;
+    opacity: 0.6;
+
 }
 h1{
-    background-color: $font4;
+    background-color: $font5;
     text-align: center;
     color: $font1;
     text-transform: capitalize;
@@ -34,18 +44,14 @@ h1{
 
 .btn{
     margin-top: 5px;
+
    
 }
 label{
     padding: 5px;
+    color: $font1;
 }
-form{
-    border: 7px solid $font4;
-     margin: auto  ; 
-    border-radius: 10px;
-     block-size: auto; 
-     margin-top: 50px;
-  }
+
 
   footer{
     background-color: $font2;
@@ -55,6 +61,7 @@ form{
     font-family: 'Oswald', sans-serif;
     padding: 20px;
     margin-top: 30px;
+    opacity: 0.5;
     i{
         font-size: 50px;
         color: $font4;
@@ -64,5 +71,5 @@ form{
         color: $font5;
     }
 }
-  
+
 

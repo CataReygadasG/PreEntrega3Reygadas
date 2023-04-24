@@ -4,6 +4,9 @@ $font2:#fff;
 $font3:rgb(94, 86, 67);
 $font4:#000;
 $font5:aliceblue;
+$font6:#29261a;
+$font7:rgb(111, 101, 79);
+$font8:#333;
 
 *{
     margin: 0;
@@ -48,6 +51,9 @@ h1{
     margin-bottom: 0;
    
 }
+h2{
+    text-align: center;
+}
 .nleft{
     background-color: $font3;
     height:350px;
@@ -75,13 +81,29 @@ h1{
         margin: 0%;
     }  
 }
+.nright{
 
 h3{
     text-align: center;
-}
+    opacity: 0.5;
 
+}
+p{
+    border: 7px solid $font1;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 30px;  
+    margin: 10px;
+    color:$font2;
+    background-color: $font7;
+    border-radius: 5px;
+}
+}
 .ubi{
     background-color: $font3;
+    h2{
+        color: $font2;
+    }
     p{
         border: 7px solid $font1;
         margin-bottom: 20px;
@@ -89,26 +111,29 @@ h3{
         padding: 30px;  
         margin: 10px;
         color:$font2;
+        background-color: $font7;
+        opacity: 0.5;
+        border-radius: 5px;
     }
 }
 
 
   
 footer{
-    background-color: $font4;
+    background-color: $font8;
     color: $font2;
     text-align: center;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     padding: 20px;
-
+  
     i{
         font-size: 50px;
-        color: $font1;
+        color: $font6;
         letter-spacing: 30px;
     }
     i:hover{
-        color: $font4;  
+        color: $font1;  
     }
 
 }

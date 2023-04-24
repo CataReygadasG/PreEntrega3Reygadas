@@ -74,8 +74,7 @@
       </div>
     </nav>
     <!-- navbar termina -->
-    <h1>Mis Compras</h1>
-
+ 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -92,50 +91,59 @@
       crossorigin="anonymous"
     ></script>
     <!-- Inicio formulario -->
-    <form class="form-inline col-md-8" action="/action_page.php">
-      <div>
-        <label for="agregar">Tipo de pago: </label>
+    <form class="col-md-6">
+      <div class="form-group row">
+        <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+        <div class="col-sm-10">
+          <input type="nombre" class="form-control" id="inputName" placeholder="Nombre">
+        </div>
       </div>
-    <div class="form-check">
-      <label class="form-check-label ">
-        <input type="radio" class="form-check-input" name="optradio">Credito
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label ">
-        <input type="radio" class="form-check-input" name="optradio">Webpay/Onepay
-      </label>
-    </div>
-    <div>
-      <label for="agregar">Entrega: </label>
-    </div>
-  <div class="form-check">
-    <label class="form-check-label ">
-      <input type="radio" class="form-check-input" name="optradio">Retiro en tienda
-    </label>
-  </div>
-  <div class="form-check">
-    <label class="form-check-label ">
-      <input type="radio" class="form-check-input" name="optradio">Domicilio
-    </label>
-  </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Tipo de Pago</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Credito
+              </label>     
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Webpay/Onepay
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
     
-      
-        <div>
-          <label for="agregar">Desea agregar: </label>
+      <div class="form-group row">
+        <div class="col-sm-2">Tipo de entrega</div>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Domicilio
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Retiro en tienda
+            </label>
+          </div>
+          
         </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input " type="checkbox" id="inlineCheckbox1" value="option1">
-          <label class="form-check-label  " for="inlineCheckbox1">Bolsa de regalo</label>
-        </div>
-        <!-- inicio boton -->
-        <div class="form-group row ">
-        <button type="submit" class="btn btn-dark">Enviar</button> 
-         <!-- Cierre -->
       </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-dark">Comprar</button>
+        </div>
+      </div>
+      
     </form>
-     <!--Termino formulario-->
-
         
   </body>
+  
 </html>

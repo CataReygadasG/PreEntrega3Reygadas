@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(134, 123, 96);
-  color: #fff;
+  background-image: url(../img/pexels-monstera-7794399.jpg);
+  background-color: #333;
 }
 
 .navbar-brand {
@@ -12,17 +12,34 @@ body {
 }
 
 form {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  border: 7px solid #333;
+  margin: auto;
+  border-radius: 5px;
+  block-size: auto;
+  margin-top: 5px;
+  background-color: #333;
+  opacity: 0.8;
+}
+
+.text-center img {
+  margin: 5px;
+  width: 50%;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 h1 {
-  background-color: rgb(165, 153, 116);
+  background-color: #333;
   text-align: center;
   color: #fff;
   text-transform: capitalize;
   padding: 20px;
   margin-bottom: 20px;
+  opacity: 0.5;
 }
 
 .btn {
@@ -31,14 +48,7 @@ h1 {
 
 label {
   padding: 5px;
-}
-
-form {
-  border: 7px solid rgb(165, 153, 116);
-  margin: auto;
-  border-radius: 10px;
-  block-size: auto;
-  margin-top: 50px;
+  color: #fff;
 }
 
 footer {
@@ -57,6 +67,24 @@ footer i {
 }
 footer i:hover {
   color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  padding: 20px;
+  opacity: 0.5;
+}
+footer i {
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 30px;
+}
+footer i:hover {
+  color: rgb(165, 153, 116);
 }
 
 /*# sourceMappingURL=estilosc.css.map */

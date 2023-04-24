@@ -296,8 +296,8 @@ section {
 }
 
 footer {
-  background-color: #000;
-  color: #fff;
+  background-color: #333;
+  color: rgb(94, 86, 67);
   text-align: center;
   font-size: 30px;
   font-family: "Oswald", sans-serif;
@@ -305,11 +305,11 @@ footer {
 }
 footer i {
   font-size: 50px;
-  color: rgb(165, 153, 116);
+  color: rgb(94, 86, 67);
   letter-spacing: 30px;
 }
 footer i:hover {
-  color: #333;
+  color: rgb(165, 153, 116);
 }
 
 /*# sourceMappingURL=estilosa.css.map */

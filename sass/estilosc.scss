@@ -5,11 +5,14 @@ $font3:rgb(94, 86, 67);
 $font4:rgb(165, 153, 116);
 $font5:#333;
 $font6:rgb(134, 123, 96);
+$font7:#605662;
+
 
 body{
-    background-color: $font6;
-    color: $font1;
+    background-image: url(../img/pexels-monstera-7794399.jpg);
+    background-color: $font5;
 }
+
 .navbar-brand{
     color:$font2;
     text-shadow: 0 0 5px $font2;
@@ -19,32 +22,47 @@ body{
 }
 
 form{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 7px solid $font5;
+    margin: auto  ; 
+    border-radius: 5px;
+    block-size: auto; 
+    margin-top: 5px;
+    background-color: $font5;
+    opacity: 0.8;
+    
 }
+.text-center{
+    img {
+        margin: 5px;
+        width: 50%;
+        height: 250px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+  }
 h1{
-    background-color: $font4;
+    background-color: $font5;
     text-align: center;
     color: $font1;
     text-transform: capitalize;
     padding: 20px;
     margin-bottom: 20px;
+    opacity: 0.5;
 }
 
 .btn{
     margin-top: 5px;
+
    
 }
 label{
     padding: 5px;
+    color: $font1;
 }
-form{
-    border: 7px solid $font4;
-    margin: auto  ; 
-    border-radius: 10px;
-    block-size: auto; 
-    margin-top: 50px;
-  }
+
 
   footer{
     background-color: $font2;
@@ -64,4 +82,22 @@ form{
     }
 }
 
+footer{
+    background-color: $font5;
+    color: $font1;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    opacity: 0.5;
 
+    i{
+        font-size: 50px;
+        color: $font1;
+        letter-spacing: 30px;
+    }
+    i:hover{
+        color: $font4;  
+    }
+
+}
